@@ -1,0 +1,5 @@
+features.openapi:
+  pagination: section
+features.catalog:
+  metadata:
+    tags: [Public, Sample, Demo, MyCustomTag]
