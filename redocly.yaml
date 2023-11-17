@@ -1,8 +1,5 @@
 extends: 
   -  minimal
-features.openapi:
-  pagination: none
-  hideInfoSection: false
 features.catalog:
   metadata:
     tags:
@@ -16,6 +13,8 @@ theme:
         primary:
           main: '#0065FB'
     showConsole: true
+    pagination: none
+    hideInfoSection: false
     generateCodeSamples:
       languages: []
     corsProxyUrl: 'https://cors.redoc.ly/'
