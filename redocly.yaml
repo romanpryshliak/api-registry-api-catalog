@@ -1,6 +1,5 @@
-features.openapi:
-  pagination: none
-  hideInfoSection: false
+extends:
+  - minimal
 features.catalog:
   metadata:
     tags:
@@ -9,6 +8,8 @@ features.catalog:
       - Demo
 theme:
   openapi:
+    pagination: none
+    hideInfoSection: false
     theme:
       colors:
         primary:
