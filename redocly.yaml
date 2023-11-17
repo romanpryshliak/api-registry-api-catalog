@@ -15,7 +15,7 @@ theme:
       colors:
         primary:
           main: '#0065FB'
-    showConsole: true
+    showConsole: false
     generateCodeSamples:
       languages: []
     corsProxyUrl: 'https://cors.redoc.ly/'
