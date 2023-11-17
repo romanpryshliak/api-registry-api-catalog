@@ -1,3 +1,5 @@
+extends: 
+  -  minimal
 features.openapi:
   pagination: none
 features.catalog:
