@@ -1,5 +1,3 @@
-extends: 
-  -  minimal
 features.openapi:
   pagination: none
   hideInfoSection: false
@@ -15,7 +13,7 @@ theme:
       colors:
         primary:
           main: '#0065FB'
-    showConsole: false
+    showConsole: true
     generateCodeSamples:
       languages: []
     corsProxyUrl: 'https://cors.redoc.ly/'
