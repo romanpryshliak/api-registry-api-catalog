@@ -2,6 +2,7 @@ extends:
   -  minimal
 features.openapi:
   pagination: none
+  hideInfoSection: false
 features.catalog:
   metadata:
     tags: [Public, Sample, Demo]
